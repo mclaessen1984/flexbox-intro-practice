@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+html {
+    background-color: rgb(245, 234, 221);
+}
+
+div {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.section {
+    padding: 30px;
+    background-color: rgb(207, 241, 230);
+}
+
+.call-to-action-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 700px;
+    background-image: url("./images/call-to-action-bg.jpg");
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.bg-dark {
+    background-color: rgb(34, 34, 34);
+    color: rgb(204, 204, 204);
+}
+
+.bg-light {
+    background-color: rgb(204, 204, 204);
+    color: rgb(34, 34, 34);;
+}
+
+.header {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-container {
+    padding: 15px 0;
+}
+
+.company-info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-details,
+.menu-items {
+    padding: 0;
+}
+
+.menu-container {
+    display: flex;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-items li {
+    padding: 10px;
+}
+
+.description-container {
+    max-width: 950px;
+    text-align: center;
+}
+
+.benefits-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.benefits-left,
+.benefits-right {
+    width: 600px;
+}
+
+.benefits-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.benefits-explainer-vid {
+    width: 500px;
+    height: 255px;
+    background-color: lawngreen;
+    border: 5px solid darkgreen;
+}
+
+.examples-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.example-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.example-image {
+    width: 280px;
+    height: 175px;
+    background-color: aquamarine;
+    border: 5px solid aqua;
+}
+
+.example-text {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 0;
+}
+
+.legal-notice {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-left: 40px;
+    max-width: 1000px;
+}
+
+.legal-notice span {
+    margin: 5px;
+}
+
+.legal-notice p {
+    margin: 5px 0;
+}
