@@ -17,6 +17,10 @@ div {
     margin-bottom: 0;
 }
 
+h1 {
+    font-size: 2em !important;
+}
+
 h2 {
     margin-bottom: 10px;
 }
