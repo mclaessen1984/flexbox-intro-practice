@@ -67,8 +67,22 @@ h2 {
     padding: 15px 0;
 }
 
-.call-to-action {
-    width: 1200px;
+.call-to-action-container {
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    flex-basis: 100%;
+}
+
+.call-to-action-left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.call-to-action-right {
+    display: flex;
+    justify-content: flex-end;
+    width: 600px;
 }
 
 .company-info-container {
@@ -110,7 +124,7 @@ h2 {
 
 .benefits-left,
 .benefits-right {
-    width: 600px;
+    max-width: 600px;
 }
 
 .benefits-right {
@@ -155,16 +169,15 @@ h2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
     padding: 15px 0;
 }
 
 .legal-notice {
     display: flex;
-    /* flex-direction: row; */
     flex-wrap: wrap;
-    /* justify-content: left; */
     margin-left: 40px;
-    max-width: 800px;
+    max-width: 950px;
 }
 
 .legal-notice span {
