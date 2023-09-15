@@ -39,9 +39,14 @@ h2 {
 }
 
 .container {
-    width: 1200px;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
+    flex-shrink: 0;
+    flex-basis: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
 }
 
 .bg-dark {
@@ -58,13 +63,12 @@ h2 {
     display: flex;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-}
-
 .header-container {
     padding: 15px 0;
+}
+
+.call-to-action {
+    width: 1200px;
 }
 
 .company-info-container {
@@ -131,6 +135,7 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     width: 300px;
 }
 
